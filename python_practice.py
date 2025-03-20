@@ -3,7 +3,7 @@ print("Hello world")
 print("test")"
 """
 
-print("Trangle:")
+print("Tringle:")
 
 print("           /|")
 print("          / |")
