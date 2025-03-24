@@ -1,0 +1,10 @@
+lucky_numbers=[1,2,3,4,5]
+friends=["ram","sham","soham","shital","vikas"]
+friends.extend(lucky_numbers)
+friends.append("pinky")
+friends.insert(2,"rohit")
+friends.remove("rohit")
+friends.pop()
+friends.clear()
+print(friends)
+print()

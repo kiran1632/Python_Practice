@@ -1,0 +1,6 @@
+na_me=input("name: ")
+dish=input("Dish: ")
+game=input("Game: ")
+print("What's your name?: "+ na_me +" kadalge")
+print("My favourite"+ dish )
+print("")
