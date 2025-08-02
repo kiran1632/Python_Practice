@@ -26,7 +26,7 @@ fruits=["banana","apple","mango"]
 colors=("red","green","blue")
 
 #6]dict: Dictionary (key-value pairs) used to store related data in key; value format
-student={"name": "kartik","age":19,"course": "BCA"}
+#student={"name": "kartik","age":19,"course": "BCA"}
 
 #7]set: Unorderd unique items (stores a collection of unique values. order is not guaranteed)
 numbers={1,2,3,4}
@@ -39,7 +39,14 @@ name="Kartik"                                               #string
 fruits=["banana","apple","mango"]                           #list
 colors=("red","green","blue")                               #tuple   
 student={"name": "kartik","age":19,"course": "BCA"}         #dict
-numbers={1,2,3,4}                                           #set
+numbers={"open","book","pencil"}                            #set
+print(x)
+print(pi)
+print(name)
+print(fruits)
+print(colors)
+print(student)
+print(numbers) 
 
 
 
@@ -49,11 +56,13 @@ numbers={1,2,3,4}                                           #set
 
 
 
-
-
-
-
-
+x=5
+if x>5:
+    print("x is grether than 5")
+#elif x==5:
+   # print("x is equal to 5")
+else:
+    print("x is less than 5")
 
 
 
