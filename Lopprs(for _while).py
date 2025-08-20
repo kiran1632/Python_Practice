@@ -49,13 +49,13 @@ for i in range (10):
 #Python program using for and while loops
 
 #for loop: Print the first 5 even numbers
-
+'''
 print("Using for loop: first five even numbers: ")
 for i in  range(2,11,2):
     print(i)
-
+'''
 #while loop: Print the 5 odd numbers
-
+'''
 print("\nUsing for loop: first five odd numbers: ")
 i=1
 cout=0
@@ -63,6 +63,272 @@ while cout <5:
     print(i)
     i+=2 
     cout+=1
+'''
+'''
+i=1
+cout=0
+while cout <5:
+    print(i)
+    i+=2
+    cout+=1
+'''
+'''
+age=19
+name="kiran"
+fruits=["banan","mango","apple"]
+number=(12,15,16,18,19)
+info={f"\nname ": "kiran","\nage":19,"\ngame":"kho-kho"}
+print(age)
+print(name)
+print(fruits)
+print(number)
+print(info)
+
+
+if(age>18):
+    print("eligible to vote")
+elif(age== 19):
+    print("your age is 19")
+else:
+    print("Not eligibal to vote")
+'''
+'''
+fruits=["apple","banana","mango"]
+for fruit in fruits:
+    print(fruit)
+'''
+'''
+num=int(input("Enter a number: "))
+for  i in range(1,11):
+    print(i*num)
+'''
+'''
+a=5
+b=5
+while b<11:
+    print(b*a)
+    b+=1
+'''
+
+num=2
+
+for i in range(5,11):
+    print(i*num)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -3,7 +3,7 @@
 #in python, conditional statements are used  to execute a block of code depending on whether a condition is true or false. 
 
 #if- statement :-  Used to run a block of code only if a condition is true
-
+'''
 x=10
 if x >5:
     print("x is grether than 5")
@@ -71,18 +71,45 @@ if age >=18:
 else:
     print("You are too young for collage admission.")
 
+'''
 
 
+'''
 
+mark=int(input("Enter marks: "))
+if mark >=90:
+    print("You got A+ grade")
+elif mark >=80:  
+    print("You got A grade")
+elif mark>=70:
+    print("You got B+ grade")
+else:
+    print("Student is failed")
+'''
+'''
+a="kiran kadalage"
+b=19
+wight=55.60
+fruits=["apple","banana","orange"]
+subjects=("English","maths","physics","biology")
+info={"Class":"BCA 2nd year","Semister":"3rd","Age":19,}
+marks=(67,79,85,96)
+print(a)
+print(b)
+print(wight)
+print(fruits)
+print(subjects)
+print(info)
+print(marks)
+'''
 
+def greet(name):
+    print("Hello,", name)
+greet("rahul")
 
-
-
-
-
-
-
-
+def greet():
+    print("Hello, कसा आहेस?")
+greet()
 
 
 
